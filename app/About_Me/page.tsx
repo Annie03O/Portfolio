@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "../public/Annie Olofsson.png";
+import Banner from "../../public/Annie Olofsson.png";
 
 export const Page = () => {
   return (
