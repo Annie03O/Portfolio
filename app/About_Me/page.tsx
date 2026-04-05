@@ -1,15 +1,13 @@
 import Image from "next/image";
 import Banner from "../../public/Annie_Olofsson.png";
 
-export const Page = () => {
+export default function Page() {  
   return (
-    <section className="flex justify-center w-full px-4 py-10">
-      
-      <div className="max-w-7xl w-full ">
-
+    <section className="flex justify-center w-full px-4">
+   
+      <div className="max-w-7xl w-full bg-white p-8 border-t border-black shadow-md">
         {/* Layout */}
         <div className="flex flex-col md:flex-row gap-8 r">
-
           {/* Bild */}
           <div className="w-full max-w-sm aspect-[2/3] relative overflow-hidden rounded-xl">
             <Image
@@ -61,12 +59,8 @@ export const Page = () => {
                     </section>
                 </section>
           </div>
-
-
         </div>
       </div>
     </section>
   );
 };
-
-export default Page;
