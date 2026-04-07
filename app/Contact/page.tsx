@@ -8,7 +8,7 @@ export default function Page() {
         <h1 className="text-4xl font-semibold">Contact</h1>
         <ul>
             <li>
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> <Link href={"mailto:annielolofsson@gmail.com"}>annielolofsson@gmail.com</Link>
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-md" /> <Link href={"mailto:annielolofsson@gmail.com"}>annielolofsson@gmail.com</Link>
             </li>
         </ul>
        </section>
