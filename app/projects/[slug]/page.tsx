@@ -33,7 +33,7 @@ export default async function ProjectPage({ params }: PageProps) {
             alt={project.title}
           />
 
-          <p className="text-[20px] w-full lg:w-[50%]">
+          <p className="text-[25px] w-full lg:w-[50%]">
             {project.description}
           </p>
           <section className="flex flex-wrap gap-4 w-full max-w-7xl:w-[50%]">

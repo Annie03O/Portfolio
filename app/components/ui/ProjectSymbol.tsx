@@ -1,3 +1,4 @@
+
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -14,30 +15,35 @@ const ProjectSymbol: React.FC<ProjectSymbolProps> = ({ title, imageSrc, id }) =>
   return (
     <section
       onClick={() => nav.push(`/projects/${id}`)}
-      className="relative flex justify-center items-center w-[450px] h-[250px] rounded-lg shadow-lg mb-3 cursor-pointer"
+      className="relative w-[250px] h-[170px] md:w-[400px] md:h-[230px] cursor-pointer"
     >
-      <section className="relative bg-blue-500 w-[400px] h-[250px] border flex flex-col items-center rounded-lg" />
+      {/* Bakre lager */}
+      <section className="absolute inset-0 rounded-lg border bg-blue-500" />
 
-      <section className="absolute flex bg-white right-8 border border-black bottom-2 w-[400px] h-[230px] overflow-hidden rounded-lg text-white justify-center items-center">
+      {/* Mittenlager */}
+      <section className="absolute inset-0 translate-x-2 translate-y-2 md:translate-x-3 md:translate-y-2 overflow-hidden rounded-lg border border-black bg-white flex items-center justify-center">
         <Image
-          width={375}
-          height={250}
+          fill
           src={imageSrc}
           alt={`${title} Preview`}
-          className="object-cover rounded-lg shadow-lg blur-xs"
+          className="object-cover rounded-lg blur-xs"
         />
-        <h2 className="absolute text-3xl">{title}</h2>
+        <h2 className="absolute px-2 text-center text-xl md:text-3xl text-white">
+          {title}
+        </h2>
       </section>
 
-      <section className="absolute flex bg-blue-500 right-10 border bottom-0 w-[400px] h-[230px] overflow-hidden rounded-lg text-white justify-center items-center">
+      {/* Främre lager */}
+      <section className="absolute inset-0 translate-x-4 translate-y-4 md:translate-x-5 md:translate-y-3 overflow-hidden rounded-lg border border-black bg-blue-500 flex items-center justify-center">
         <Image
-          width={375}
-          height={250}
+          fill
           src={imageSrc}
           alt={`${title} Preview`}
-          className="object-cover rounded-lg shadow-lg blur-xs"
+          className="object-cover rounded-lg blur-xs"
         />
-        <h2 className="absolute text-3xl">{title}</h2>
+        <h2 className="absolute px-2 text-center text-xl md:text-3xl text-white">
+          {title}
+        </h2>
       </section>
     </section>
   );

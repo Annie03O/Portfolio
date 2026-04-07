@@ -31,15 +31,15 @@ export default function Banner() {
           </button>
         </section>
       </section>
-      <section className="relative flex bg-white md:hidden w-full">
+      <section className="relative flex flex-col md:flex-row bg-white md:hidden w-full">
         <section className="flex flex-col   p-4 ">
           <h1 className="text-3xl font-semibold whitespace-nowrap">Annie Olofsson</h1>
-          <h3 className="text-2xl font-medium text-gray-600 whitespace-nowrap">
+          <h3 className="text-2xl font-medium text-gray-600 md:whitespace-nowrap">
             Frontend Developer / Web Designer
           </h3>
         </section>
 
-        <section className="relative right-5 flex justify-end items-center w-full mt-4">
+        <section className="relative right-5 flex justify-end items-center w-full mt-4 bottom-2">
           <button
             onClick={() => nav.push("Portfolio/About_Me")}
             className="text-center bg-blue-500 hover:bg-blue-300 text-white shadow-xl p-4 rounded-lg "

@@ -7,8 +7,8 @@ export default function Page() {
       <section className="flex-col bg-white text-black justify-center w-full px-4 py-10 min-h-[80vh]">
         <h1 className="text-4xl font-semibold">Contact</h1>
         <ul>
-            <li>
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-md" /> <Link href={"mailto:annielolofsson@gmail.com"}>annielolofsson@gmail.com</Link>
+            <li className="flex items-center mt-4">
+            <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4" /> <Link href={"mailto:annielolofsson@gmail.com"}>annielolofsson@gmail.com</Link>
             </li>
         </ul>
        </section>
