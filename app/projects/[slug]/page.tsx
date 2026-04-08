@@ -23,9 +23,9 @@ export default async function ProjectPage({ params }: PageProps) {
 
   return (
     <main>
-      <section className="flex flex-col items-center justify-center w-full h-full text-white">
+      <section className="flex flex-col items-center justify-center w-full h-full text-white gap-4">
         <section className="w-[90%] md:w-[80%] flex flex-col items-center justify-center gap-4">
-          <h1 className="text-5xl p-2 text-center">{project.title}</h1>
+          <h1 className="text-2xl whitespace-nowrap md:text-5xl p-2 text-center">{project.title}</h1>
 
           <img
             className="w-full lg:w-[50%] "
@@ -33,7 +33,7 @@ export default async function ProjectPage({ params }: PageProps) {
             alt={project.title}
           />
 
-          <p className="text-[25px] w-full lg:w-[50%]">
+          <p className="md:text-[25px] w-full lg:w-[50%]">
             {project.description}
           </p>
           <section className="flex w-full justify-center max-w-7xl:w-[50%]">

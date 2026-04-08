@@ -1,4 +1,5 @@
 import { Header } from "./components/Header/Header";
+import Footer from "./components/ui/Footer";
 import "./globals.css";
 
 export default function RootLayout({
@@ -8,11 +9,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="font-serif">
-      <body>
+      <body >
         <Header />
         <main >
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
