@@ -7,9 +7,9 @@ export default function Page() {
    
       <div className="max-w-7xl w-full bg-white p-8 border-t border-black shadow-md">
         {/* Layout */}
-        <div className="flex flex-col md:flex-row gap-8 r">
+        <div className="flex flex-col lg:flex-row md:gap-8 ">
           {/* Bild */}
-          <div className="w-full max-w-sm aspect-[2/3] relative overflow-hidden rounded-xl">
+          <div className="w-full lg:max-w-sm aspect-[2/3] relative overflow-hidden rounded-xl">
             <Image
               src={Banner}
               alt="Annie Olofsson"
@@ -17,9 +17,9 @@ export default function Page() {
               className="object-cover object-[0%_20%]"
             />
           </div>
-          <div>
-            <section className="flex flex-col items-start gap-2">
-                <h1 className="text-4xl font-semibold">
+          <div className="relative top-2 md:top-0">
+            <section className="flex flex-col items-start">
+                <h1 className="  text-3xl md:text-4xl text-black font-semibold">
                     Annie Olofsson
                 </h1>
                 <h3 className="text-2xl font-medium text-gray-600">
@@ -41,7 +41,7 @@ export default function Page() {
                         <li>UX</li>
                     </ul>
                 </section>
-                 <section className="flex  gap-2">   
+                 <section className="flex flex-col lg:flex-row gap-2">   
                     <section className="flex flex-col mt-4 text-gray-700 gap-2">
                         <h2 className="text-3xl font-semibold">Experience</h2>
                         <ul className="list-disc list-inside">

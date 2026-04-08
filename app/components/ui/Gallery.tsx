@@ -28,6 +28,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
       <section className="flex flex-col items-center justify-center  h-full text-white">
         <h1 className="text-2xl mb-4">Gallery</h1>
         <section className="flex flex-wrap gap-4 mb-4 items-center justify-center max-w-[1000px] w-[fit-content]">
+          <section className="grid grid-cols-3 gap-4">
             {images.map((image, index) => (
               <section
                 key={index}
@@ -41,6 +42,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
                 />
               </section>
             ))}
+          </section>
       </section>
       </section>
 
