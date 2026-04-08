@@ -1,5 +1,5 @@
-:HL["/Portfolio/_next/static/chunks/00o~osz_4nztf.css","style"]
+:HL["/Portfolio/_next/static/chunks/0wqx_g8y_dz7..css","style"]
 :HL["/Portfolio/_next/static/media/FF_start.0y7e-mhamoreo.png","image"]
 :HL["/Portfolio/_next/static/media/ShowPage.0agcr42047adx.png","image"]
 :HL["/Portfolio/_next/static/media/TeensPage.0_smauispxl01.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"fanatic-fandom","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Z6TyfuSiN8mB-0b_x67DT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"fanatic-fandom","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"pawGCaZCDC31pBkYhBzNS"}
