@@ -23,12 +23,12 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
   };
 
   return (
-    <section className="flex items-center justify-center">
+    <section className="flex items-center justify-center w-[90%]">
       {/* thumbnails */}
-      <section className="flex flex-col items-center justify-center h-full text-white">
+      <section className="flex flex-col items-center justify-center w-full h-full text-white">
         <h1 className="text-3xl mb-4">Gallery</h1>
-        <section className={`flex flex-wrap gap-4 mb-4 items-center justify-center ${images.length > 3 ? "md:h-[275px]" : ""} max-w-[1000px] w-[fit-content] bg-gray-200 p-4 rounded-md min-h-[100px] max-h-[275px] overflow-scroll  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-00 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500`} >
-          <section className={`relative ${images.length > 3 ? "" : "top-2"} grid grid-cols-3 gap-4`}>
+        <section className={`flex flex-wrap md:gap-4 w-full mb-4 items-center justify-center  ${images.length > 3 ? "md:h-[275px]" : ""} max-w-[700px] bg-gray-200 md:p-4 rounded-md min-h-[100px] max-h-[275px] overflow-scroll  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-00 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500`} >
+          <section className={`relative ${images.length > 3 ? "" : "top-2"}  w-full grid grid-cols-2 min-[481px]:grid-cols-3 p-2 md:p-0 gap-1 md:gap-7`}>
             {images.map((image, index) => (
               <section
                 key={index}

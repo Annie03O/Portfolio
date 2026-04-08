@@ -15,7 +15,7 @@ const ProjectSymbol: React.FC<ProjectSymbolProps> = ({ title, imageSrc, id }) =>
   return (
     <section
       onClick={() => nav.push(`/projects/${id}`)}
-      className="relative w-[250px] h-[170px] md:w-[400px] md:h-[230px] cursor-pointer"
+      className="relative w-[250px] h-[170px] md:w-[400px] md:h-[230px] cursor-pointer flex items-center justify-center"
     >
      
 

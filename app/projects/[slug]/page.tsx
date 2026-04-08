@@ -36,16 +36,18 @@ export default async function ProjectPage({ params }: PageProps) {
           <p className="md:text-[25px] w-full lg:w-[50%]">
             {project.description}
           </p>
-          <section className="flex w-full justify-center max-w-7xl:w-[50%]">
-            <section className="flex flex-wrap gap-4 w-full md:w-[50%] md:max-w-7xl:w-[50%]">
-              {project.gallery.slice(1, 4).map((image, index) => (
-                <img
-                  key={index}
-                  className="w-full md:w-[45%] object-cover"
-                  src={image}
-                  alt={`${project.title} image ${index + 1}`}
-                />
-              ))}
+          <section className="flex w-full justify-center items-center max-w-7xl:w-[50%]">
+            <section className="flex w-full lg:w-[50%] justify-center items-center">
+              <section className="grid grid-cols-1 md:grid-cols-2 gap-2 md:max-w-7xl:w-[40%]">
+                {project.gallery.slice(1, 4).map((image, index) => (
+                  <img
+                    key={index}
+                    className="w-full md:w-full object-cover"
+                    src={image}
+                    alt={`${project.title} image ${index + 1}`}
+                  />
+                ))}
+              </section>
             </section>
           </section>
         </section>

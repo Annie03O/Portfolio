@@ -24,7 +24,7 @@ export default function Banner() {
 
         <section className="flex justify-center items-center w-full mt-4">
           <button
-            onClick={() => nav.push("/About_Me")}
+            onClick={() => nav.push("About_Me")}
             className="text-center bg-blue-500 hover:bg-blue-300 text-white shadow-xl p-4 rounded-lg"
           >
             Get to know me
