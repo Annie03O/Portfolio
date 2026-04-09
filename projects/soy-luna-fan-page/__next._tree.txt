@@ -2,4 +2,4 @@
 :HL["/Portfolio/_next/static/media/SL_Start.0omjl-zyzn8ha.png","image"]
 :HL["/Portfolio/_next/static/media/SL_CharPage.02jept4v_9o-c.png","image"]
 :HL["/Portfolio/_next/static/media/SL_CharPageDown.0.bp4sna5s030.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"soy-luna-fan-page","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"zJ6FroF7eGFymGYNr54wu"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"soy-luna-fan-page","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"wvgZ2e-j-CoLEYKPYl8PQ"}
