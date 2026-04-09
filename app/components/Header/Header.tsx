@@ -22,8 +22,7 @@ export const Header = () => {
   return (
     <header className="sticky">
       <section className="bg-white text-black p-2 md:p-4 flex items-center justify-between border-b border-black">
-        <h1 className="text-2xl">Annie Olofsson</h1>
-        <Nav />
+        <Link href={"/"}> <h1 className="text-2xl">Annie Olofsson</h1></Link>        <Nav />
       </section>
 
       <nav className="absolute bg-black left-4 md:top-22 text-white">
