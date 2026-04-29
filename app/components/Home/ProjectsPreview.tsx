@@ -9,7 +9,7 @@ export default function ProjectsPreview() {
         <section className="relative flex flex-col items-center justify-center w-full h-full text-white mt-6"> 
             <h2 className="text-3xl mb-6">My Projects</h2>
             <p className="text-lg text-gray-300 mb-4 w-[90%] text-center">Here are some of my recent projects. Click to see more!</p>
-            <section className="flex justify-center lg:justify-between flex-wrap md:w-[70%] px-4 gap-6">
+            <section className="flex flex-col md:flex-row justify-center items-center flex-wrap  w-full max-w-7xl  px-4 gap-6">
               {projects.map((project) => (
                 <ProjectSymbol
                   key={project.id}
