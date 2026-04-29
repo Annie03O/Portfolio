@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en" className="font-serif">
       <body >
         <Header />
-        <main className="min-h-[1000px] relative top-6 lg:top-0" >
+        <main className="min-h-[1000px] pt-6" >
           {children}
         </main>
         <Footer />

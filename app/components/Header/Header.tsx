@@ -25,7 +25,7 @@ export const Header = () => {
         <Link href={"/"}> <h1 className="text-2xl">Annie Olofsson</h1></Link>        <Nav />
       </section>
 
-      <nav className="absolute bg-black left-4 md:top-22 text-white">
+      <nav className="bg-black text-white pl-2 pt-2 md:p-4 ">
         <Link href="/">Home</Link>
 
         {pathSegments.map((segment, index) => {

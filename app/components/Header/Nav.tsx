@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Nav = () => {
     return (
-        <nav className=" text-brack p-4">
+        <nav className=" text-black p-4">
             <ul className="flex space-x-4 justify-center">
                 <li>
                     <a href="/Portfolio" className="hover:underline flex items-center gap-1">
