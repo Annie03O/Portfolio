@@ -24,7 +24,7 @@ export default function Banner() {
         </section>
 
         <section className="flex justify-center items-center w-full mt-4">
-          <Link href={"Portfolio/About_Me"}>
+          <Link href={"About_Me"}>
             <button
               className="text-center bg-blue-500 hover:bg-blue-300 text-white shadow-xl p-4 rounded-lg"
             >
