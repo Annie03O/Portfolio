@@ -39,6 +39,7 @@ export default function Page() {
                         <li>Version Control (Git)</li>
                         <li>PHP</li>
                         <li>UX</li>
+                        <li>Testing</li>
                     </ul>
                 </section>
                  <section className="flex flex-col lg:flex-row gap-2">   
