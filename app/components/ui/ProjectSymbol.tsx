@@ -1,6 +1,7 @@
 
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 interface ProjectSymbolProps {
@@ -13,8 +14,8 @@ const ProjectSymbol: React.FC<ProjectSymbolProps> = ({ title, imageSrc, id }) =>
   const nav = useRouter();
 
   return (
+    <Link href={`/projects/${id}`}>
     <section
-      onClick={() => nav.push(`/projects/${id}`)}
       className="relative w-[250px] h-[170px] md:w-[400px] md:h-[230px] cursor-pointer flex items-center justify-center"
     >
      
@@ -32,6 +33,7 @@ const ProjectSymbol: React.FC<ProjectSymbolProps> = ({ title, imageSrc, id }) =>
         </h2>
       </section>
     </section>
+    </Link>
   );
 };
 
