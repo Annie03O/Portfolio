@@ -2,6 +2,7 @@
 import Image from "next/image";
 import BannerImg from "../../../public/Annie_Olofsson.png";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 export default function Banner() {
   const nav = useRouter();
 
@@ -23,12 +24,13 @@ export default function Banner() {
         </section>
 
         <section className="flex justify-center items-center w-full mt-4">
-          <button
-            onClick={() => nav.push("About_Me")}
-            className="text-center bg-blue-500 hover:bg-blue-300 text-white shadow-xl p-4 rounded-lg"
-          >
-            Get to know me
-          </button>
+          <Link href={"Portfolio/About_Me"}>
+            <button
+              className="text-center bg-blue-500 hover:bg-blue-300 text-white shadow-xl p-4 rounded-lg"
+            >
+              Get to know me
+            </button>
+          </Link>
         </section>
       </section>
       <section className="relative flex flex-col md:flex-row bg-white md:hidden w-full">
