@@ -46,7 +46,7 @@ export default function Page() {
                     <section className="flex flex-col mt-4 text-gray-700 gap-2">
                         <h2 className="text-3xl font-semibold">Experience</h2>
                         <ul className="list-disc list-inside">
-                            <li>Knitted For You (2026 - Present)</li>
+                            <li>Knitted For You (2026)</li>
                             <li>Tegel Consulting (2025)
                             </li>
                         </ul>
@@ -54,7 +54,7 @@ export default function Page() {
                     <section className="flex flex-col mt-4 text-gray-700 gap-2 ">
                         <h2 className="text-3xl font-semibold">Education</h2>
                         <ul className="list-disc list-inside">
-                            <li>Medieinstitutet – Frontend Developer (2024 - Present)</li>
+                            <li>Medieinstitutet – Frontend Developer (2024 - 2026)</li>
                             <li>Rudbecks Gymnasium – Samhällvetenskapsprogrammet (2019-2023)</li>
                         </ul>
                     </section>
