@@ -36,7 +36,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, title }) => {
                 className="cursor-pointer rounded-lg overflow-hidden border border-gray-300 hover:shadow-lg transition-shadow duration-300 border-gray-400"
               >
                 <img
-                  className="w-[200px] opacity-80 hover:opacity-100 transition-opacity duration-300 "
+                  className="w-[200px] opacity-80 hover:opacity-100 transition-opacity duration-300 h-[100px] object-cover"
                   src={image}
                   alt={`${title} image ${index + 1}`}
                 />
