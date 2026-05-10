@@ -82,7 +82,6 @@ export const projects: Project[] = [
         gallery: [
             KFYGrid.src,
             KFYModal.src,
-            KFY.src,
             KFYColorFull.src,
             KFYSection.src,
             KFYFull.src,
