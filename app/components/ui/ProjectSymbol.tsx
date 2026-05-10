@@ -16,7 +16,7 @@ const ProjectSymbol: React.FC<ProjectSymbolProps> = ({ title, imageSrc, id }) =>
   return (
     <Link href={`/projects/${id}`}>
     <section
-      className="relative w-[250px] h-[170px] md:w-[400px] md:h-[230px] cursor-pointer flex items-center justify-center"
+      className="relative w-[250px] h-[170px] md:w-[350px] md:h-[201] cursor-pointer flex items-center justify-center"
     >
      
 
